@@ -10,6 +10,8 @@ public class App
     	ApplicationContext context=new AnnotationConfigApplicationContext(Config.class);
     	Inmakes in=context.getBean(Inmakes.class);
     	in.displayCourse("Java",7000);
+    	in.getAmount(6900);
+    	//in.displaySecurity();
     	
     }
 }
